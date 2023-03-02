@@ -1,3 +1,5 @@
+//Listener
+
 window.addEventListener('domcontentloaded', (event) => {
     getVisitCount();
 })    
