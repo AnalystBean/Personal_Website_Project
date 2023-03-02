@@ -1,3 +1,22 @@
+window.addEventListener('domcontentloaded', (event) => {
+    getVisitCount();
+})    
+
+const functionAPI =''; // API URL
+
+const getVisitCount = () => {
+    let count = 30;
+    fetch(functionAPI).then(response => {
+    return response.json()
+    }).then(response =>{ 
+        console.log("website Called function API");
+        count = response.count;
+        document.getElementById("count").innerHTML = count;
+    }).catch(function(error) {
+        console.log(error);
+    });
+    return count;
+}
 /*toggle icon navbar*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
