@@ -1,4 +1,4 @@
-//Listener
+//Listener for DOM content loaded
 
 window.addEventListener('domcontentloaded', (event) => {
     getVisitCount();
