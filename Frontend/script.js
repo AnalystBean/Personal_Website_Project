@@ -82,3 +82,10 @@ const typed = new Typed('.multiple-text', {
     backDelay: 500,
     loop: true
 });
+const typed1 = new Typed('.text-change', {
+    strings: [' times using Azure function',' times using a custom API'],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 500,
+    loop: true
+});
