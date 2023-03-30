@@ -76,14 +76,14 @@ ScrollReveal().reveal('.home-content p, about-content', { origin: 'right' });
 /*typed js*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Pricing Analyst!', 'Data Enthusiast.', 'Future Cloud Architect!', 'Azure Specialist!'],
+    strings: ['Pricing Analyst!', 'Data Enthusiast.', 'Future Cloud Architect!',],
     typeSpeed: 100,
     backSpeed: 50,
     backDelay: 500,
     loop: true
 });
 const typed1 = new Typed('.text-change', {
-    strings: [' times using Azure functions!',' times using a custom API!'],
+    strings: [' times using Azure functions!',' times and using a custom API!'],
     typeSpeed: 100,
     backSpeed: 50,
     backDelay: 500,
